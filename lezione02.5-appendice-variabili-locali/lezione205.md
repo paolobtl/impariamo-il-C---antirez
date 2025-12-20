@@ -606,7 +606,7 @@ Per questo è possibile usare una funzione come `printf` semplicemente includend
   - Introduzione alle basi dell'assembly
   - Contesto: analisi malware
 
-### Spazio per ulteriori approfondimenti
+### Ulteriori approfondimenti
 - [wtf is “the stack” ?](https://www.youtube.com/watch?v=CRTR5ljBjPM&)
 - [Why is the CALLSTACK so Important? Assembly Tutorial for Beginners](https://www.youtube.com/watch?v=_HeYWi67mR4)
 - [Programmazione Assembly (x86 e x86-64)](https://www.youtube.com/watch?v=NIhZdsWHBWM)
