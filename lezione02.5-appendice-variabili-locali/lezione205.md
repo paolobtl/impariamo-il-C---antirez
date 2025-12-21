@@ -1,4 +1,4 @@
-# Lezione 2 - Le Variabili Locali e lo Stack
+# Lezione 2.5 - Le Variabili Locali e lo Stack
 
 **Video di riferimento:** [Addendum lezione 2 - La vita delle variabili locali](https://www.youtube.com/watch?v=r6mU_IHXEps)
 
@@ -30,6 +30,7 @@ Lo stack del computer funziona **esattamente così**. È una zona di RAM organiz
 - Serve come "metro" per trovare parametri e variabili locali
 - Non si muove durante l'esecuzione della funzione
 - È come mettere un segnaposto nella pila
+- Contiene l'indirizzo di memoria dell'inizio della funzione corrente
 
 **Perché RSP scende quando fai PUSH?**
 Sì, esatto! Lo stack pointer (RSP/ESP) scende perché in x86 lo stack cresce verso indirizzi più bassi. Quando fai `PUSH`, RSP diminuisce (es: da 0x1000 a 0x0FFC).
@@ -607,6 +608,7 @@ Per questo è possibile usare una funzione come `printf` semplicemente includend
   - Contesto: analisi malware
 
 ### Ulteriori approfondimenti
+- [do you know how "return" works under the hood?](https://www.youtube.com/watch?v=e46wHUjNDjE)
 - [wtf is “the stack” ?](https://www.youtube.com/watch?v=CRTR5ljBjPM&)
 - [Why is the CALLSTACK so Important? Assembly Tutorial for Beginners](https://www.youtube.com/watch?v=_HeYWi67mR4)
 - [Programmazione Assembly (x86 e x86-64)](https://www.youtube.com/watch?v=NIhZdsWHBWM)
