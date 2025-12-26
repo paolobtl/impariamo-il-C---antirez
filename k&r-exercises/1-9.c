@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 int main(void) {
-    int found = 0;    
+    int was_space = 0;    
     int c;                 
 
     while ((c = getchar()) != EOF) {
         if (c == ' ') {  
-            if (found == 0) {           
+            if (!was_space) {           
                 putchar(c);         
-                found = 1;             
+                was_space = 1;             
             }
         } else {                         
             putchar(c);                 
-            found = 0;                
+            was_space = 0;                
         }
     }
     return 0;
